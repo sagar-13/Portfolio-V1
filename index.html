@@ -121,20 +121,22 @@
 	<section>
 		<div class="container-fluid bg-primary vh-100">
 			<div class="row">
-				<div class="col-md-12 text-center pt-5 ">
+				<div class="col-md-12 text-center pt-5">
 					<h2 id="resume_heading">Check out my Resume!</h2>
 						<p>To see my work experience and skills:</p>
 					
-					<img class="mb-3 float-none" id="resume" src="images/3_resume_mock.png" alt="Generic placeholder image">
+					<img class="" id="resume" src="images/3_resume_mock.png" alt="Generic placeholder image">
 				</div>
-				<div class="mt-2 col-md-12 text-center ">
+				
+				<div class="col-md-12 text-center my-5">
 					
-					<a class="btn btn-primary btn-lg my-4" href="#" role="button">Full Resume »</a>
+					<a class="btn btn-primary btn-lg" href="#" role="button">Full Resume »</a>
 				</div>
+				
 				<div class="col-md-12 text-center">
 					
 					
-					<a href="#contact" onClick="initScene()" class="float-none btn btn-dark my-5 fas fa-angle-down btn-primary"></a>
+					<a href="#contact" onClick="initScene()" class="my-3 btn btn-dark fas fa-angle-down btn-primary"></a>
 					
 				</div>
 			</div>
@@ -143,21 +145,26 @@
 	
 
 	
-	<section>
+	<section >
 
 
-   <div class="canvas-container container-fluid bg-black text-center">
-   		<div class="col-12">
-			<h2 class="pt-5" id="contact">Contact Me</h2>
-
-			<p>Let's get in contact so you can:</p>
-		</div>
+   <div id="contact" class="canvas-container bg-black text-center">
+   			
 		
-		<canvas id="scene"></canvas>
 		
-		<div class="container-fluid canvas-content text-center">
-			<a href="Contact.html" id="contact-button" role="button" class="btn btn-secondary">Get in touch</a>
-		</div>
+			
+			<canvas id="scene"></canvas>
+			<div class="canvas-content container-fluid text-center">
+				<h2 class="pt-5">Contact Me</h2>
+
+				<p>Let's get in contact so you can:</p>
+
+				<a href="Contact.html" id="contact-button" role="button" class="btn btn-secondary">Get in touch</a>
+
+			
+			
+			
+			</div>				
 
 	
 
@@ -184,7 +191,9 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.3.1.js"></script>
 	<script src="https://kit.fontawesome.com/75ee1f125d.js" crossorigin="anonymous"></script>
+	
 	<script src="js/zenscroll-min.js"></script>
+	<script>zenscroll.setup(null, 45)</script>
 	<script src="js/effects.js"></script>
   </body>
 </html>

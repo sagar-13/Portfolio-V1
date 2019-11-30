@@ -135,7 +135,10 @@ function onTouchEnd(){
     window.addEventListener("touchend", onTouchEnd);
 //    initScene();
     requestAnimationFrame(render);
-
+	
+	
+	
+	
 //var canvas = document.querySelector("#scene"),  
 //  ctx = canvas.getContext("2d"),
 //        particles = [],

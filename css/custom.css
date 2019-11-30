@@ -6,8 +6,8 @@
 /*
 #under_projects{
 
-	position: relative;
-	bottom: 10%;
+
+	bottom: 25%;
 }
 */
 
@@ -167,12 +167,14 @@ nav a {
 .canvas-container{
 	position: relative;
 	width: 100vw;
+	height: 100vh;
 
 }
 
 
 canvas {
-	width: 90vw;
+	
+
 }
 
 
