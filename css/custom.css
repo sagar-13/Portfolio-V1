@@ -42,12 +42,14 @@ body {
 
 
 .bg-primary{
-	background-color: #ccfee2 !important;
+
+	background-color: #EDFEF4 !important;
+/*	ccfee2*/
 	color: #000 !important;
 }
 .bg-secondary{
 	color: white;
-	background-color: #000 !important;;
+	background-color: black !important;
 }
 
 
@@ -183,7 +185,7 @@ canvas {
 
 	
 	width: 100%;
-  	border: 1px solid black;
+/*  	border: 1px solid black;*/
 }
 
 
@@ -219,13 +221,36 @@ canvas {
 	border-width: 0px 5px 5px 5px;
 }
 
+@media (max-width: 576px) {
 
+	.resume-heading {
+		background-color: white !important;
+	
+		border-style: solid;
+		border-width: 0px 5px 0px 5px;
+			
+	}
+/*
+	.resume-top {
+		border-style: solid;
+		border-width: 0px 5px 0px 5px;
+	}
+*/
+	
+	
+	
+	}
+	
+#Skills {
+
+/*	max-height: 100vh;*/
+}
 
 
 [class^="devicon-"] {
 	vertical-align: middle;
 
-    font-size: 5vw;
+    font-size: 6vw;
     transition: all 1s ease-in-out;
 	
 
@@ -239,8 +264,8 @@ canvas {
 
 .logo {
 	transition: all 2s ease-in-out;
-	vertical-align: top;
-	min-height: 35px;
+/*	vertical-align: top;*/
+	min-height: 30px;
 	height: 3vw;
 /*	min-height: 75px;*/
 /*	margin: 0 10px 0 10px;*/
