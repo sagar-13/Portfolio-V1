@@ -206,17 +206,17 @@ canvas {
 .resume {
 	
 	border-style: solid;
-	border-width: 0px 7px 0px 7px;
+	border-width: 0px 5px 0px 5px;
 }
 
 .resume-top {
 	border-style: solid;
-	border-width: 7px 7px 0px 7px;
+	border-width: 5px 5px 0px 5px;
 	}
 	
 .resume-bottom {
 	border-style: solid;
-	border-width: 0px 7px 7px 7px;
+	border-width: 0px 5px 5px 5px;
 }
 
 
