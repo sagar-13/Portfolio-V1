@@ -52,10 +52,11 @@ body {
 
 
 .jumbotron {
-  padding: 2rem 1rem;
+  padding: 2rem 0rem;
   margin-bottom: 0rem;
 
-  border-radius: 0.3rem;
+/*  border-radius: 0.
+3rem;*/
 }
 
 nav a {
@@ -95,27 +96,13 @@ nav a {
 	
 }
 
-/*
-.down-button-secondary {
-	background-color: black;
-	color: white;
-	border: solid white 2px;
 
-
-}
-
-.down-button-primary {
-	background-color: white;
-	color: black;
-	border: solid;
-
-*/
 
 
 
 
 .project-pic {
-	border: solid white 5px;
+	border: solid #ccfee2 5px;
 	height: 18vw;
 	
 	margin-bottom: 2vw;
@@ -141,7 +128,7 @@ nav a {
 
 
 .border-7{
-	border: solid black 8px;
+	border: solid black 6px;
 	
 }
 
@@ -163,28 +150,40 @@ nav a {
 /*  font-size: 3vw;*/
 }
 
-
-.canvas-container{
-	position: relative;
-	width: 100vw;
-	height: 100vh;
-
+/*
+#canvas-container {
+  position: relative;
 }
-
-
+#canvas-container canvas, #overlay {
+  position: absolute;
+}
 canvas {
+	width: 100%;
+  	border: 1px solid black;
+}
+*/
+
+#overlay2 {
+
+	margin-top: 80vh;
+}
+
+#contact-button {
+
+/*	margin-top: 90%;*/
+}
+
+#overlay, overlay2, canvas {
 	
-
-}
-
-
-.canvas-content {
-	color: white;
 	position: absolute;
-	bottom: 20%;
 
 
 }
+canvas {
+	width: 100%;
+  	border: 1px solid black;
+}
+
 
 
 /* The typing effect */
