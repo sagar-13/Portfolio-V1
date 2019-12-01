@@ -163,7 +163,7 @@ canvas {
 }
 */
 
-#overlay2 {
+#canvas-overlay-bottom {
 
 	margin-top: 80vh;
 }
@@ -173,7 +173,7 @@ canvas {
 /*	margin-top: 90%;*/
 }
 
-#overlay, overlay2, canvas {
+#canvas-overlay-top, canvas-overlay-bottom, canvas {
 	
 	position: absolute;
 
@@ -202,6 +202,24 @@ canvas {
 
 
 /*STUFF RELATED TO RESUME.HTML*/
+
+.resume {
+	
+	border-style: solid;
+	border-width: 0px 7px 0px 7px;
+}
+
+.resume-top {
+	border-style: solid;
+	border-width: 7px 7px 0px 7px;
+	}
+	
+.resume-bottom {
+	border-style: solid;
+	border-width: 0px 7px 7px 7px;
+}
+
+
 
 
 [class^="devicon-"] {
