@@ -138,8 +138,8 @@ function onTouchEnd(){
 	
 	
 	$(window).scroll(function() {
-		var hT = $('#scene').offset().top,
-			hH = $('#scene').outerHeight(),
+		var hT = $('#animation_waypoint').offset().top,
+			hH = $('#animation_waypoint').outerHeight(),
 			wH = $(window).height(),
 			wS = $(this).scrollTop();
 		if (wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH)){
