@@ -17,7 +17,9 @@ border:solid black 1px;
 
 
 }
-
+.user-card .header {
+  background-image: url("https://cdn-images-1.medium.com/max/2000/1*19LWzzJJDPqGq67Vyd0EjQ.jpeg");
+}
 
 
 body {
@@ -89,6 +91,13 @@ nav a {
 
 	
 }
+
+.btn:focus, .btn.focus  {
+  outline: 0;
+  box-shadow: 0 0 10px 10px blue;
+}
+
+
 
 .btn-secondary:hover{
 	
@@ -214,6 +223,8 @@ canvas {
 .resume-top {
 	border-style: solid;
 	border-width: 5px 5px 0px 5px;
+	
+
 	}
 	
 .resume-bottom {
@@ -290,7 +301,7 @@ min-height: 50px;
 }
 
 #github-logo{
-	height: 25vw;
+	height: 10vw;
 
 }
 
