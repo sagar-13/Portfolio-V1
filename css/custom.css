@@ -336,5 +336,29 @@ min-height: 50px;
 	height: 50vw;
 }
 
+
+
+
+video {
+
+/*	filter: brightness(70%);*/
+	width: 100%;
+
+	z-index: -1;
+}
+
+video:hover{
+	filter: brightness(80%);
+	transition: 0.25s;
+}
+.video-caption {
+    position: absolute;
+    bottom: 0;
+    
+	width: 100%;
+	z-index: 1;
+	
+}
+
 			
 
