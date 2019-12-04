@@ -11,6 +11,10 @@
 }
 */
 
+img  {
+
+	image-orientation: unset;
+}
 
 .active {
 border:solid black 1px;
