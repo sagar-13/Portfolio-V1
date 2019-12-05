@@ -3,42 +3,19 @@
 
 
 
-/*
-#under_projects{
 
 
-	bottom: 25%;
-}
-*/
-
-img  {
-
-	image-orientation: unset;
-}
 
 .active {
 border:solid black 1px;
 
+}
 
-}
-.user-card .header {
-  background-image: url("https://cdn-images-1.medium.com/max/2000/1*19LWzzJJDPqGq67Vyd0EjQ.jpeg");
-}
 
 
 body {
 	
 	font-family: 'Archivo Narrow';
-
-/*	font-family: "DM Sans";*/
-/*	font-family: "Fjalla One";*/
-/*	font-family: "Julius Sans One";*/
-/*	font-family: "Lexend Giga";*/
-	
-
-
-/*	font-family:  'Carrois Gothic SC';*/
-
 }
 
 .badge {
@@ -54,6 +31,7 @@ body {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+
 .bg-black {
 	color: white;
 	background-color: #000 !important;
@@ -63,21 +41,18 @@ body {
 .bg-primary{
 
 	background-color: #EDFEF4 !important;
-/*	ccfee2*/
 	color: #000 !important;
 }
+
 .bg-secondary{
 	color: white;
 	background-color: black !important;
 }
 
-
 .jumbotron {
   padding: 2rem 0rem;
   margin-bottom: 0rem;
 
-/*  border-radius: 0.
-3rem;*/
 }
 
 nav a {
@@ -86,7 +61,7 @@ nav a {
 }
 
 .btn-primary {
-	color :black;
+	color: black;
 	
 	background-color: white;
 	border: solid black 3px;	
@@ -104,33 +79,28 @@ nav a {
 .btn-primary:hover{
 	
 	background-color: black;
-/*	border: solid white 3px;	*/
 
 	
 }
 
 .btn:focus, .btn.focus  {
   outline: 0;
-  box-shadow: 0 0 10px 10px blue;
+  box-shadow: 0 0 2px 2px red;
 }
 
 
 
 .btn-secondary:hover{
-	
-	background-color: black;
-/*	border: solid white 3px;	*/
+	color: black;
+	background-color: white;
+
 
 	
 }
 
 
-
-
-
-
 .project-pic {
-	border: solid #ccfee2 5px;
+	border: solid 5px;
 	height: 18vw;
 	
 	margin-bottom: 2vw;
@@ -138,83 +108,35 @@ nav a {
 
 }
 
-.projects-page-picture {
-	border: solid #666666 5px;
-	height: 18vw;
-	
-	margin-bottom: 2vw;
-
-}
 
 
 #resume {
 
 	height: 30vw;
-	max-height: 400px;
+	max-height: 500px;
 }
 
 
 
-.border-7{
-	border: solid black 6px;
+.picture-border{
+	border: solid black 5px;
 	
 }
 
 
 
 
-
-
+/* Modified typewriter effect from https://css-tricks.com/snippets/css/typewriter-effect/*/
 .typewriter h1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap;  /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .11em; /* Adjust as needed */
+  overflow: hidden; 
+
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .10em; 
   animation: 
     typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-  
-/*  font-size: 3vw;*/
+    blink-caret .75s step-end 8;
 }
-
-/*
-#canvas-container {
-  position: relative;
-}
-#canvas-container canvas, #overlay {
-  position: absolute;
-}
-canvas {
-	width: 100%;
-  	border: 1px solid black;
-}
-*/
-
-#canvas-overlay-bottom {
-
-	margin-top: 80vh;
-}
-
-#contact-button {
-
-/*	margin-top: 90%;*/
-}
-
-#canvas-overlay-top, canvas-overlay-bottom, canvas {
-	
-	position: absolute;
-
-
-}
-canvas {
-
-	
-	width: 100%;
-/*  	border: 1px solid black;*/
-}
-
-
 
 /* The typing effect */
 @keyframes typing {
@@ -222,11 +144,18 @@ canvas {
   to { width: 100% }
 }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
+
+
+#canvas-overlay-bottom {
+	margin-top: 80vh;
 }
+
+
+#canvas-overlay-top, canvas-overlay-bottom, canvas {
+	position: absolute;
+}
+
+
 
 
 /*STUFF RELATED TO RESUME.HTML*/
@@ -249,6 +178,7 @@ canvas {
 	border-width: 0px 5px 5px 5px;
 }
 
+
 @media (max-width: 576px) {
 
 	.resume-heading {
@@ -257,27 +187,10 @@ canvas {
 		border-style: solid;
 		border-width: 0px 5px 0px 5px;
 		
-	
-			
 	}
-	
-	.github-card {
-	
-		data-width: 100%;
-	
-	
-	
-
-	}
-
-	
 	
 	}
 	
-#Skills {
-
-/*	max-height: 100vh;*/
-}
 
 
 [class^="devicon-"] {
@@ -297,11 +210,10 @@ canvas {
 
 .logo {
 	transition: all 2s ease-in-out;
-/*	vertical-align: top;*/
+
 	min-height: 30px;
 	height: 3vw;
-/*	min-height: 75px;*/
-/*	margin: 0 10px 0 10px;*/
+
 }
 
 #uoft_logo {
@@ -317,7 +229,8 @@ min-height: 100px;
 }
 
 #rcss_logo {
-height: 2.5vw;
+
+height: 2vw;
 min-height: 50px;
 
 }
@@ -358,7 +271,6 @@ min-height: 50px;
 
 video {
 
-/*	filter: brightness(70%);*/
 	width: 100%;
 	
 	
@@ -374,7 +286,6 @@ video {
     bottom: 50%;
 	width: 100%;
     
-	
 
 	
 }
@@ -382,9 +293,19 @@ video {
 .video-caption:hover {
     display: none;
     
-	
 
 	
+}
+.memory {
+	border: 7px solid;
+
+}
+.memory:hover {
+
+	transition: all .4s ease-in-out; 
+	transform: scale(1.05); 
+
+	filter: brightness(120%);
 }
 			
 

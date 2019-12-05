@@ -1,11 +1,15 @@
 // JavaScript Document
 
-//Copyright (c) 2019 by Louis Hoebregts (https://codepen.io/Mamboleoo/pen/obWGYr)
-//
-//Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-//
-//The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-//
+// For the Particle Effect
+
+	//Copyright (c) 2019 by Louis Hoebregts (https://codepen.io/Mamboleoo/pen/obWGYr)
+	//
+	//Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+	//
+	//The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+	//
+	
+	
 
     var canvas = document.querySelector("#scene"),
         ctx = canvas.getContext("2d"),
@@ -14,7 +18,7 @@
         mouse = {x:0,y:0},
         radius = 1;
 
-    var colors = ["#ccfee2","#FFF0A5", "#FFB03B","#B64926", "#8E2800"];
+    var colors = ["#00ff00","#ccfee2", "#ccfee2","#00ff00", "#ccfee2"];
 
   
 
@@ -133,7 +137,7 @@ function onTouchEnd(){
     window.addEventListener("touchmove", onTouchMove);
     window.addEventListener("click", onMouseClick);
     window.addEventListener("touchend", onTouchEnd);
-//    initScene();
+
     requestAnimationFrame(render);
 	
 	
