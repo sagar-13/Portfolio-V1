@@ -5,6 +5,12 @@
 
 
 
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
 
 .active {
 border:solid black 1px;
@@ -39,8 +45,12 @@ body {
 
 
 .bg-primary{
+	background: linear-gradient(270deg, #61f2cd, #61daf2, #66cf7b);
+	background-size: 600% 100%;
 
-	background-color: #EDFEF4 !important;
+	animation: AnimationName 30s ease infinite;
+
+/*	background-color: #EDFEF4 !important;*/
 	color: #000 !important;
 }
 
