@@ -18,18 +18,30 @@ if(IsInjected($visitor_email)){
     exit;
 }
 
-$email_from = "From: $email_from \r\n";
-$email_subject = "New Form submission";
-$email_body = "You have received a new message from the user $name.\nHere is the message:\n $message".
-    
-$to = "sagar.suri@mail.utoronto.ca";//<== update the email address
-$headers = "From: $email_from \r\n";
-$headers .= "Reply-To: $visitor_email \r\n";
-//Send the email!
-mail($to,$email_subject,$email_body,$headers);
-//done. redirect to thank-you page.
-header('Location: thank-you.html');
 
+//if we made it here let's print to the console.
+debug_to_console("Test 1");
+
+// $email_from = "From: $email_from \r\n";
+// $email_subject = "New Form submission";
+// $email_body = "You have received a new message from the user $name.\nHere is the message:\n $message".
+    
+// $to = "sagar.suri@mail.utoronto.ca";//<== update the email address
+// $headers = "From: $email_from \r\n";
+// $headers .= "Reply-To: $visitor_email \r\n";
+// //Send the email!
+// mail($to,$email_subject,$email_body,$headers);
+// //done. redirect to thank-you page.
+// header('Location: thank-you.html');
+
+
+function debug_to_console($data) {
+    $output = $data;
+    if (is_array($output))
+        $output = implode(',', $output);
+
+    echo "<script>console.log('Debug Objects: " . $output . "' );</script>";
+}
 
 // Function to validate against any email injection attempts
 function IsInjected($str)
