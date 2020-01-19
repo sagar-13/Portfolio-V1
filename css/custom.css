@@ -18,9 +18,23 @@
 
 
 
+
 body {
-	
 	font-family: 'Archivo Narrow';
+
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .badge {
@@ -51,8 +65,10 @@ body {
 }
 
 .bg-secondary{
-	color: white;
-	background-color: black !important;
+	/* background-color: #EDFEF4 !important;
+	color: #000 !important; */
+	background-color: #EDFEF4 !important;
+	color: #000 !important;
 }
 
 .jumbotron {
@@ -109,7 +125,7 @@ nav a {
 
 
 .project-pic {
-	border: solid 5px;
+	border: double 10px;
 	height: 18vw;
 	
 	margin-bottom: 2vw;
