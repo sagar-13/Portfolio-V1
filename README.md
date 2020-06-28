@@ -1,9 +1,16 @@
-# sagar-13.github.io
-Portfolio Bootstrap Website
+# Portfolio V1
 
-The first iteration of my portfolio. Built using HTML, CSS, JS, and Bootstrap. 
+
+
+The first iteration of my portfolio. 
+
+Fully responsive and built using **HTML, CSS, JS, and Bootstrap**. 
 
 sagar-13.github.io/portfolio-v1/
 
 
-For a more recent version, check out sagarsuri.com.
+
+
+
+
+For a more recent portfolio, check out <http://www.sagarsuri.com>.
